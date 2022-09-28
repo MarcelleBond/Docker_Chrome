@@ -1,6 +1,6 @@
 # DOCKER CHROME
 
-![Docker Chrome Build](https://github.com/MarcelleBond/Docker_Chrome/actions/workflows/Docker_chrome_build_and_push.yml/badge.svg)
+![Docker Chrome Build](https://github.com/MarcelleBond/Docker_Chrome/actions/workflows/build.yml/badge.svg)
 
 This is a docker image runs xpra which we use to run google chrome from within the docker container and make it viewable from the web browser.
 The Chrome instance has a plugin installed to stream music on different sites from a playlist given to it.
