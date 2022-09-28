@@ -7,7 +7,7 @@ name: Docker_Chrome
 
 on:
   push:
-    branches: [ master ]
+#     branches: [ master ]
     # Publish semver tags as releases.
     tags: [ 'v*.*.*' ]
   pull_request:
