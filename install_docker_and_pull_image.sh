@@ -7,6 +7,6 @@ apt-cache policy docker-ce
 sudo apt install docker-ce
 sudo systemctl status docker
 
-docker pull hotbox.azurecr.io/marcellebond/docker_chrome:1.0.1
+sudo docker pull hotbox.azurecr.io/marcellebond/docker_chrome:1.0.1
 wget -L "https://raw.githubusercontent.com/MarcelleBond/Docker_Chrome/master/run.sh"
 sudo sh run.sh $1
