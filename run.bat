@@ -1,1 +1,1 @@
-docker run -t -d -p 1000:10000 -v D:\code\Chrome_Plugins\StreamManager:/extentions --restart unless-stopped --name chrome xpra-chrome
+docker run -t -d -p 1000:10000 --name chrome xpra-chrome
